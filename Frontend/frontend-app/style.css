@@ -1,0 +1,37 @@
+.section {
+  display: none;
+}
+.section.active {
+  display: block;
+}
+
+/* Reuse classes from earlier */
+.header, .footer {
+  width: 100%;
+  background: #007acc;
+  color: white;
+  padding: 2%;
+}
+.main {
+  width: 80%;
+  margin: 0 auto;
+  padding: 5%;
+}
+.title { font-size: 200%; }
+.subtitle { font-size: 150%; margin: 2% 0; }
+.nav-link {
+  margin: 0 2%;
+  padding: 1%;
+  background: #005f99;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+.nav-link:hover { background: #003f66; }
+.form { width: 50%; margin: 0 auto; text-align: left; }
+.label { display: block; margin: 2% 0 1% 0; }
+.input { width: 100%; padding: 2%; margin-bottom: 2%; }
+.btn { width: 100%; padding: 2%; background: #007acc; color: white; border: none; border-radius: 5px; cursor: pointer; }
+.btn:hover { background: #005f99; }
+.list { width: 60%; margin: 0 auto; text-align: left; }
+.quiz-options { width: 40%; margin: 0 auto; }
